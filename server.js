@@ -18,8 +18,8 @@ const server = http.createServer(function(req, res) {
     // The type of content we are returning. Just plain text.
     res.setHeader("Content-Type", "text/plain");
     // The plain text we are returning.
-    //res.end("Hello, Sandra!");
-    res.end("Hello, + require.url!");
+    res.end("Hello, Sandra!");
+    //res.end("Hello, + require.url!");
 });
 
 // Start the server listening on the port of the hostname.
