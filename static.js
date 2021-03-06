@@ -1,4 +1,4 @@
-/ Import the node-static library
+//Import the node-static library
 const static = require("node-static");
 // Import the http server library
 const http = require("http");
